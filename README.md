@@ -3,6 +3,7 @@
 # About
 
 CZ1115 DSAI Mini Project Submission
+
 This project tries to identify Ethereum wallet addresses that belong to centralised exchanges, as opposed to user owned wallets. 
 
 Since the Web3 space is growing exponentially, more and more users are joining the space, and many of them are not particularly educated about the space. This leads to many scams and we want to try and reduce that as much as possible. 
