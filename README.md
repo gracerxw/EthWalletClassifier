@@ -2,7 +2,7 @@
 
 # About
 
-CZ1115 DSAI Mini Project Submission
+**CZ1115 DSAI Mini Project Submission**
 
 This project tries to identify Ethereum wallet addresses that belong to centralised exchanges, as opposed to user owned wallets. 
 
@@ -56,3 +56,9 @@ Possible future improvements could involve using BiqQuery to collect a larger da
 - Web Scrapers
 - How CEXs utilise their hot wallets
 - How KNN works
+
+---
+
+# References
+
+https://medium.com/trm-insights/how-we-used-machine-learning-to-label-one-million-ethereum-addresses-e69c96a841b9
