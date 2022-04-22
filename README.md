@@ -11,6 +11,14 @@ By deanonymizing the ownership of wallet addresses, we hope to be able to help p
 
 This classifier might also prove to be useful to protocols that might want to airdrop stuff to random wallets, but want to excluse CEX wallets as well.
 
+Our project is split into 5 main sections:
+
+* [Data Extraction](https://github.com/matthew-chua/EthWalletClassifier/blob/main/DataExtraction.ipynb)
+* [Data Cleaning](https://github.com/matthew-chua/EthWalletClassifier/blob/main/CleanData.ipynb)
+* [EDA](https://github.com/matthew-chua/EthWalletClassifier/blob/main/EDA.ipynb)
+* [Predictor Exploration](https://github.com/matthew-chua/EthWalletClassifier/blob/main/ExploringPredictors.ipynb)
+* [Fine Tuning Models](https://github.com/matthew-chua/EthWalletClassifier/blob/main/TuningModels.ipynb)
+
 ---
 
 # Contributors
