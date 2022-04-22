@@ -3,6 +3,13 @@
 # About
 
 CZ1115 DSAI Mini Project Submission
+This project tries to identify Ethereum wallet addresses that belong to centralised exchanges, as opposed to user owned wallets. 
+
+Since the Web3 space is growing exponentially, more and more users are joining the space, and many of them are not particularly educated about the space. This leads to many scams and we want to try and reduce that as much as possible. 
+
+By deanonymizing the ownership of wallet addresses, we hope to be able to help people identify proper CEX wallets, and verify that they are depositing their crypto into the right wallet address, as opposed to a potentialy scammer's user wallet. 
+
+This classifier might also prove to be useful to protocols that might want to airdrop stuff to random wallets, but want to excluse CEX wallets as well.
 
 ---
 
@@ -29,6 +36,9 @@ We want to find out if it is possible to classify wallet addresses into hot wall
 ---
 
 # Conclusion
+We managed to get a classification accuracy of more than 90% with the Random Forest model, with a decently low FPR and FPN.
+However, it is worth noting that our dataset is rather small as well, which might lead to a slight amount of overfitting.
+Possible future improvements could involve using BiqQuery to collect a larger dataset, from which a better model can be trained on.
 
 ---
 
